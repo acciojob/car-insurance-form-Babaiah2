@@ -12,11 +12,11 @@
 	<form action="#" method ="POST">
 		<div>
 			<label for="name">Name*:</label>
-		    <input type="text",id ="#name" required>
+		    <input type="text",id ="name" name="name" required>
 		</div>
 		<div>
 			<label for="Email">Email*:</label>
-		    <input type="email" id = "#email" required>
+		    <input type="email" id ="email" name="email" required>
 		</div>
 		<div>
 			<label for="gender">Gender*:</label>
@@ -26,23 +26,23 @@
 		<div>
 			<label for="cars">Car Brands:</label>
 			<select name="Car Brands" id="#cars">
-				<option value="BMW">BMW</option>
-				<option value="Audi">Audi</option>
-				<option value="Mercedez">Mercedez</option>
+				<option value="BMW" id="cars" name="cars">BMW</option>
+				<option value="Audi" id="cars" name="cars">Audi</option>
+				<option value="Mercedez" id="cars" name="cars">Mercedez</option>
 			</select>
 		</div>
 		
 		<div>
-			<label for="CarAge">Car Age*:</label>
-			<input type = "number" id="#carage" required>
+			<label for="carage">Car Age*:</label>
+			<input type = "number" id="carage" name="carage" required>
 		</div>
 		<div>
 			<label for="dop"> Date of Purchase:</label>
-			<input type ="date" id="#dop" >
+			<input type ="date" id="dop" name="dop">
 		</div>
 		<div>
 			<label for="password">Password*:</label>
-			<input type ="password" id ="#password" required>
+			<input type ="password" id="password" name="password" required>
 		</div>
 		<div>
 			<button type = "submit">Submit</button>
